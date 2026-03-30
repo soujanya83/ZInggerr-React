@@ -17,15 +17,13 @@ const usersSubItems = [
 const menuItems = [
   { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
   { icon: Users, label: 'Users', hasDropdown: true },
-  { icon: GraduationCap, label: 'Students' },
-  { icon: Users, label: 'Faculty' },
+  { icon: Shield, label: 'Roles', path: '/roles' },
   { icon: BookOpen, label: 'Courses' },
   { icon: ClipboardList, label: 'Enrollments' },
-  { icon: CalendarDays, label: 'Events' },
+  { icon: CalendarDays, label: 'Events', path: '/events' },
   { icon: ListTodo, label: 'Tasks' },
   { icon: Video, label: 'Live Classes' },
   { icon: Bell, label: 'Notifications' },
-  { icon: Shield, label: 'Roles & Permissions' },
   { icon: Settings, label: 'Settings' },
 ];
 
